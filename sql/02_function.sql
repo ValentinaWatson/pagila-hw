@@ -3,8 +3,12 @@
  * Order the results from low to hi.
  */
 CREATE OR REPLACE FUNCTION get_actor_ids(text) RETURNS TABLE(actor_id INTEGER) AS
+
 $$
--- FIXME: implementation goes here
+SELECT actor_id
+FROM actor
+WHERE first_name LIKE (UPPER($1) || '%')
+ORDER BY 1;
 $$
 LANGUAGE SQL
 IMMUTABLE
