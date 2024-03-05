@@ -1,5 +1,4 @@
-# pagila-hw ![https://github.com/ValentinaWatson/pagila-hw/actions?query=workflow%3Atests](https://github.com/ValentinaWatson/pagila-hw/workflows/tests/badge.svg)
-https://github.com/ValentinaWatson/pagila-hw/blob/master/.github/workflows/tests.yml
+# pagila-hw [![](https://github.com/ValentinaWatson/pagila-hw/workflows/tests/badge.svg)](https://github.com/ValentinaWatson/pagila-hw/actions?query=workflow%3Atests)
 
 ## Background
 
